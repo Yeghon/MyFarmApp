@@ -2,4 +2,27 @@
     <string name="app_name">MyFarmApp</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+
+    <string name="companyname">Yjungle Inc.</string>
+    <string name="companyWebsite">http://yjungle.com</string>
+    <string name="companyEmail">yjungleinclusive@gmail.com</string>
+    <string name="companyLocation">Mountain View, Waiyaki way. Nairobi</string>
+    <string name="signin">Sign In</string>
+    <string name="phone">Your phone number</string>
+    <string name="pass">Your secure password</string>
+    <string name="forgotpass">Forgotten pin</string>
+    <string name="resetPass">Reset Forgotten Pin </string>
+    <string name="next">Next</string>
+    <string name="sign_up">Don\'t have an account? Sign Up</string>
+    <string name="sign_up_new_user">Confirm details!</string>
+    <string name="terms">Terms &amp; conditions</string>
+    <string name="contact">Contact Us</string>
+    <string name="contactPhone">+254728626789</string>
+    <string name="empty">You do not have any records yet</string>
+    <string name="sign_up_username">John</string>
+    <string name="sign_up_user_phone">0712345678</string>
+    <string name="sign_up_user_pass">****</string>
+    <string name="sign_up_user_confirm_pass">****</string>
+    <dimen name="padding_size_16">16dp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
 </resources>

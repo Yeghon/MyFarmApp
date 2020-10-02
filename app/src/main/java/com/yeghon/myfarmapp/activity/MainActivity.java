@@ -1,4 +1,4 @@
-package com.yeghon.myfarmapp;
+package com.yeghon.myfarmapp.activity;
 
 import android.os.Bundle;
 
@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.yeghon.myfarmapp.R;
 import com.yeghon.myfarmapp.ui.main.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
