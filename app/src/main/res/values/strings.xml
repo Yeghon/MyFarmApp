@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">MyFarmApp</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_livestock">Livestock</string>
+    <string name="tab_crops">Crops</string>
+    <string name="tab_other">Other</string>
+    <string name="tab_market">MarketPlaceTab 2</string>
+    <string name="tab_news">News</string>
 
     <string name="companyname">Yjungle Inc.</string>
     <string name="companyWebsite">http://yjungle.com</string>
