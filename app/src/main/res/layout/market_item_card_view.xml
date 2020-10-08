@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_size_16">
+
+            <TextView
+                android:id="@+id/item_to_sell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sukuma Wiki"
+                android:paddingBottom="@dimen/padding_size_5"/>
+
+            <TextView
+                android:id="@+id/item_to_sell_price"
+                android:layout_alignParentEnd="true"
+                android:text="Ksh. 150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/item_to_sell_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sukuma wiki to sell, been 3 days on the farm ,Sukuma wiki to sell, been 3 days on the farm ,Sukuma wiki to sell, been 3 days on the farm ,Sukuma wiki to sell, been 3 days on the farm ,Sukuma wiki to sell, been 3 days on the farm , fast growingm, "
+                android:layout_below="@id/item_to_sell"
+                android:paddingBottom="@dimen/padding_size_5"/>
+
+            <TextView
+                android:id="@+id/item_to_sell_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nairobi, Kilimani"
+                android:layout_below="@id/item_to_sell_description"/>
+
+            <TextView
+                android:id="@+id/item_to_sell_seller_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="254723567876"
+                android:layout_below="@id/item_to_sell_location"
+                android:padding="@dimen/padding_size_5"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
