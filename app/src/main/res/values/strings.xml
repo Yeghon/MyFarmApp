@@ -28,4 +28,6 @@
     <string name="sign_up_user_confirm_pass">****</string>
     <dimen name="padding_size_16">16dp</dimen>
     <dimen name="text_size_20sp">20sp</dimen>
+    <string name="test_text">This is a sample test. CLick on the card to read more ...</string>
+    <string name="news_views">200 Views</string>
 </resources>
