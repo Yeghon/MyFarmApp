@@ -17,7 +17,7 @@ import com.yeghon.myfarmapp.R;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_crops, R.string.tab_livestock, R.string.tab_market, R.string.tab_other, R.string.tab_news};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_crops, R.string.tab_livestock, R.string.tab_market, R.string.tab_news};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {

@@ -9,11 +9,11 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.MobileAds;
+//import com.google.android.gms.ads.initialization.InitializationStatus;
+//import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.yeghon.myfarmapp.R;
 
 import static com.yeghon.myfarmapp.utils.CommonFunctions.showSnack;
@@ -54,8 +54,8 @@ public class CustomDialog {
             case "pinReset":
                 final EditText passReset = dialogView.findViewById(R.id.reset_pass_value);
                 final Button passResetButton = dialogView.findViewById(R.id.resetPassword);
-                final AdView pinad = dialogView.findViewById(R.id.adView);
-                loadAd(context, pinad);
+//                final AdView pinad = dialogView.findViewById(R.id.adView);
+//                loadAd(context, pinad);
                 passResetButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -75,8 +75,8 @@ public class CustomDialog {
                 final EditText userPass = dialogView.findViewById(R.id.sign_up_user_pass);
                 final EditText userConfirmPass = dialogView.findViewById(R.id.sign_up_user_confirm_pass);
                 final Button userSignUp = dialogView.findViewById(R.id.new_sign_up);
-                final AdView userad = dialogView.findViewById(R.id.adView1);
-                loadAd(context, userad);
+//                final AdView userad = dialogView.findViewById(R.id.adView1);
+//                loadAd(context, userad);
 
                 userSignUp.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -110,7 +110,7 @@ public class CustomDialog {
         }
     }
 
-    private static void loadAd(Context context, AdView userad) {
+    /*private static void loadAd(Context context, AdView userad) {
         MobileAds.initialize(context, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -118,5 +118,5 @@ public class CustomDialog {
         });
         AdRequest adRequest = new AdRequest.Builder().build();
         userad.loadAd(adRequest);
-    }
+    }*/
 }
